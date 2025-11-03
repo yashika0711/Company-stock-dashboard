@@ -1,9 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+A web-based dashboard for tracking stock data, revenue, and business transcation of the company with dynamic charts and reports.
 ---
 
 ## ⚙️ Setup Instructions
