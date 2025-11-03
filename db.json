@@ -1,0 +1,132 @@
+{
+  "companies": [
+    { "id": "c1", "name": "EazyPayouts" },
+    { "id": "c2", "name": "FinFlow" },
+    {"id":"c3","name": "Wonderer"}
+  ],
+  "accounts": [
+    { "id": "a1", "companyId": "c1", "name": "Account 1" },
+    { "id": "a2", "companyId": "c1", "name": "Account 2" },
+    { "id": "a3", "companyId": "c2", "name": "Account A" },
+    { "id": "a4", "companyId": "c2", "name": "Account B" },
+     { "id": "a5", "companyId": "c3", "name": "Account A" },
+    { "id": "a6", "companyId": "c3", "name": "Account B" }
+
+  ],
+  "accountData": [
+    {
+      "accountId": "a1",
+      "balance": 8888888888,
+      "loads": [
+        {
+          "date": "07/05/2024 01:04 PM",
+          "credit": 2137,
+          "balance": 2137,
+          "utr": "ACDFD7747Q7QHU",
+          "account": "-"
+        },
+        {
+          "date": "06/05/2024 12:03 PM",
+          "credit": 2137,
+          "balance": 2137,
+          "utr": "CH5413842137",
+          "account": "0145DN4ET7PL"
+        }
+      ]
+    },
+    {
+      "accountId": "a2",
+      "balance": 7777777777,
+      "loads": [
+        {
+          "date": "20/03/2024 12:03 PM",
+          "credit": 5015.69,
+          "balance": 5015.69,
+          "utr": "ACT6B7WRR74Q7QHU",
+          "account": "-"
+        },
+        {
+          "date": "07/04/2024 01:37 PM",
+          "credit": 21376,
+          "balance": 21370,
+          "utr": "ACDFD7747Q9QHU",
+          "account": "-"
+        }
+      ]
+    },
+    {
+      "accountId": "a3",
+      "balance": 6666666666,
+      "loads": [
+        {
+          "date": "19/03/2024 12:03 PM",
+          "credit": 5015.69,
+          "balance": 5015.69,
+          "utr": "ACT6B7WRR74Q7QHU",
+          "account": "-"
+        }
+        ,
+        {
+          "date": "19/03/2024 11:03 PM",
+          "credit": 16090,
+          "balance": 16070,
+          "utr": "CH6398566916",
+          "account": "0145DN4ET7PL"
+        }
+      ]
+    },
+    {
+      "accountId": "a4",
+      "balance": 5555555555,
+      "loads": [
+        {
+          "date": "18/03/2024 12:03 PM",
+          "credit": 16000,
+          "balance": 16000,
+          "utr": "CH6398566916",
+          "account": "0145DN4ET7PL"
+        }
+      ]
+    },
+    {
+      "accountId": "a5",
+      "balance": 77745577777,
+      "loads": [
+        {
+          "date": "04/09/2024 10:03 PM",
+          "credit": 8015.69,
+          "balance": 8015.69,
+          "utr": "ACT6B7WRR74Q7QHU",
+          "account": "-"
+        },
+        {
+          "date": "07/04/2024 01:37 PM",
+          "credit": 21376,
+          "balance": 21370,
+          "utr": "ACDFD7747Q9QHU",
+          "account": "-"
+        }
+      ]
+    },
+    {
+      "accountId": "a6",
+      "balance": 7777777878,
+      "loads": [
+        {
+          "date": "29/03/2014 12:03 PM",
+          "credit": 5019.69,
+          "balance": 5019.69,
+          "utr": "ACT6B7WRR74Q7QHU",
+          "account": "-"
+        },
+        {
+          "date": "12/04/2025 01:30 PM",
+          "credit": 89076,
+          "balance": 78870,
+          "utr": "ACDFD7747Q9QHU",
+          "account": "-"
+        }
+      ]
+    }
+  ]
+}

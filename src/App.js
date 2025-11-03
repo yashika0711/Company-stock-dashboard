@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import BalanceCard from './components/BalanceCard';
+import TransactionTable from './components/TransactionTable';
+import './styles/main.css'
 
 function App() {
+  const [companyId, setCompanyId] = useState('');
+  const [accountId, setAccountId] = useState('');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="dashboard">
+      <Sidebar />
+      <div className="main-content">
+        <Header setCompanyId={setCompanyId} setAccountId={setAccountId} />
+        {accountId && (
+          <>
+            <BalanceCard accountId={accountId} />
+            <TransactionTable accountId={accountId} />
+          </>
+        )}
+      </div>
     </div>
   );
 }
